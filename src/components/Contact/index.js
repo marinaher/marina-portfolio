@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Contact = () => (
-  <div>
+  <section>
     <h2>Contact Page</h2>
     
     <form>
@@ -25,7 +25,7 @@ const Contact = () => (
         <button type="button" className="btn btn-default submit">Submit</button>
       </div>
     </form>
-  </div>
+  </section>
 )
 
 export default Contact;

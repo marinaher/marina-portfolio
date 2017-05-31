@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Employment = () => (
-  <div>
+  <section>
     <h2>Employment</h2>
     <ul>
       <li>Wheaton Franciscan Healthcare</li>
@@ -10,7 +10,7 @@ const Employment = () => (
       <li>Wasabi - Sake Sushi Lounge</li>
       <li>Arby's</li>
     </ul>
-  </div>
+  </section>
 )
 
 export default Employment;

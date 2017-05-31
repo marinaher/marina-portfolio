@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Skills = () => (
-  <div>
+  <section>
     <h2>Skills</h2>
     <ul>
       <li>JavaScript</li>
@@ -12,7 +12,7 @@ const Skills = () => (
       <li>HTML</li>
       <li>CSS</li>
     </ul>
-  </div>
+  </section>
 )
 
 export default Skills;
