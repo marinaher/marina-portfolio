@@ -11,15 +11,15 @@ import './navbar.css';
 
 const Navbar = () => (
   <Router>
-    <nav className="navbar-container">     
-      <ul className="navbar-list">
-        <li className="nav-list-item"><Link to="/">Home</Link></li>
-        <li className="nav-list-item"><Link to="/AboutMe">About Me</Link></li>
-        <li className="nav-list-item"><Link to="/Skills">Skills</Link></li>
-        <li className="nav-list-item"><Link to="/Education">Education</Link></li>
-        <li className="nav-list-item"><Link to="/Employment">Employment</Link></li>
-        <li className="nav-list-item"><Link to="/Portfolio">Portfolio</Link></li>
-        <li className="nav-list-item"><Link to="/Contact">Contact</Link></li>
+    <nav className="sidebar sidebar-block">     
+      <ul className="list">
+        <li className="list-item"><Link to="/">Add <br /> Logo <br /> Here</Link></li>
+        <li className="list-item"><Link to="/AboutMe">About Me</Link></li>
+        <li className="list-item"><Link to="/Skills">Skills</Link></li>
+        <li className="list-item"><Link to="/Education">Education</Link></li>
+        <li className="list-item"><Link to="/Employment">Employment</Link></li>
+        <li className="list-item"><Link to="/Portfolio">Portfolio</Link></li>
+        <li className="list-item"><Link to="/Contact">Contact</Link></li>
       </ul>
 
       <Route exact={true} path="/" component={Home} />
