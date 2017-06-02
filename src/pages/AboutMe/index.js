@@ -1,14 +1,16 @@
 import React from 'react';
+import Content from '../../components/Content';
 
 const AboutMe = () => (
-  <section id="aboutme">
-    <h2>About Me</h2>
+  <Content pageId='aboutme' pageTitle='About Me' link='About'>
     <p>Lorem ipsum dolor sit amet, et tantas labitur nec. Tempor accusamus vix cu, at oblique gloriatur mel, mea id lucilius consequat. Ei tritani civibus sed, suscipit evertitur vis et, ullum utamur cu his. In justo omittantur ius.</p>
 
-    <p className="myInfo">Name: Marina Her</p>
-    <p className="myInfo">Email Address: <span id="myEmailAddress">b-her@live.com</span></p>
-    <p className="myInfo">Location: Wisconsin</p>
-  </section>
-)
+    <div className="myInfo">
+      <p>Name: Marina Her</p>
+      <p>Email Address: <span id="myEmailAddress">b-her@live.com</span></p>
+      <p>Location: Wisconsin</p>
+    </div>
+  </Content>
+);
 
 export default AboutMe;

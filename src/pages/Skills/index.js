@@ -1,8 +1,8 @@
 import React from 'react';
+import Content from '../../components/Content';
 
 const Skills = () => (
-  <section>
-    <h2>Skills</h2>
+  <Content pageId='skills' pageTitle='Skills' link='Skills'>
     <ul>
       <li>JavaScript</li>
       <li>ReactJS</li>
@@ -12,7 +12,7 @@ const Skills = () => (
       <li>HTML</li>
       <li>CSS</li>
     </ul>
-  </section>
+  </Content>
 )
 
 export default Skills;
