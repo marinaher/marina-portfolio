@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <NavList/>
+        <NavList />
         <Home />
         <AboutMe />
         <Skills />
