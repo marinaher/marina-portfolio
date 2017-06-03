@@ -1,0 +1,30 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul.list {
+  height: 100%;
+  margin-top: 0;
+  padding-top: 15%;
+  position: fixed!important;
+  width: 200px;
+}
+
+li.list-item {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  font-size: 15px;
+  line-height: 1.5;
+  margin-left: 25px;
+  margin-right: 20px;
+  padding: 8px 17px;
+  text-transform: uppercase;
+}
+
+.list-item a {
+    text-decoration: none;
+}
+
+section {
+  padding-left: 220px;
+}

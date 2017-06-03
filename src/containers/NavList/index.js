@@ -1,5 +1,6 @@
 import React from 'react';
 import NavListItem from '../../components/NavListItem';
+import './navlist.css';
 
 const createNav = (pageArray) => {
   const pageLinks = [];
