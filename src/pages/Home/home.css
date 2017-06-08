@@ -1,3 +1,8 @@
+section#home {
+  min-height: 777px;
+  background-color: rgba(60, 136, 125, 0.64);
+}
+
 img.mherImg {
     height: 181px;
     width: 177px;

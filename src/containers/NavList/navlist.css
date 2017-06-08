@@ -4,15 +4,15 @@ ul {
 }
 
 ul.list {
+  background-color: #fff;
   height: 100%;
   margin-top: 0;
   padding-top: 15%;
   position: fixed!important;
-  width: 200px;
+  width: 211px;
 }
 
 li.list-item {
-  border-bottom: 1px solid rgba(0,0,0,.1);
   font-size: 15px;
   line-height: 1.5;
   margin-left: 25px;
@@ -22,7 +22,24 @@ li.list-item {
 }
 
 .list-item a {
-    text-decoration: none;
+  color: #82b3ac;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.list-item a::before {
+  content: attr(data-hover);
+  color: #696868;
+  position: absolute;
+
+  transition: transform 0.3s, opacity 0.3s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+}
+
+.list-item a:hover::before,
+.list-item a:focus::before {
+  opacity: 0;
 }
 
 section {

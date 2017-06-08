@@ -1,11 +1,14 @@
 import React from 'react';
 import Content from '../../components/Content';
-import mherImage from '../../images/mher1.JPG';
 import './home.css';
 
 const Home = () => (
-  <Content pageId='home' pageTitle='Home' link='Home'>
-    <img className='mherImg' alt='ImageOfMarina' src={mherImage}/>
+  <Content pageId='home' pageTitle='' link='Home'>
+    <div className='homeIntro'>
+      <p className='hello'>Hello, I'm</p>
+      <p className='name'>Marina Her</p>
+      <p className='profession'>Frontend Software Developer</p>
+    </div>
   </Content>
 )
 
