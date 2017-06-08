@@ -1,0 +1,35 @@
+/* Light Oswald */
+@font-face {
+  font-family: Oswald-Light, sans-serif;
+  src: local('Oswald Light'),
+       local('Oswald-Light'),
+       url(Oswald-Light.ttf);
+  font-weight: light;
+}
+
+/* Extra Light Oswald */
+@font-face {
+  font-family: Oswald-ExtraLight, sans-serif;
+  src: local('Oswald ExtraLight'),
+       local('Oswald-ExtraLight'),
+       url(Oswald-ExtraLight.ttf);
+  font-weight: extra-light;
+}
+
+/* Roboto Regular */
+@font-face {
+  font-family: Roboto, sans-serif;
+  src: local('Roboto Regular)'),
+       local('Roboto-Regular'),
+       url(Roboto-Regular.ttf);
+  font-weight: regular;
+}
+
+/* Roboto Light */
+@font-face {
+  font-family: Roboto-light, sans-serif;
+  src: local('Roboto Light'),
+       local('Roboto-Light'),
+       url(Roboto-Light.ttf);
+  font-weight: light;
+}
